@@ -11,13 +11,16 @@ Play Store: https://play.google.com/store/apps/details?id=pro.waltonchain.wallet
 
 APK: https://app.waltonchain.org/app-h5/wtc_download
 
+
 Privacy Policy
 
 https://www.waltonchain.org/en/sys/cate/58.html
 
+
 Source Code
 
 https://github.com/waltonchain/waltonchain-wallet-android
+
 
 License
 This wallet is open source and available under the terms of the MIT License.
