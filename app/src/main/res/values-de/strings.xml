@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Common-->
+    <string name="Alert_Ok">OK</string>
+    <string name="Alert_Cancel">Abbrechen</string>
+    <string name="Alert_Copy">Kopieren</string>
+    <string name="Alert_Share">Teilen</string>
+    <string name="Alert_Close">Schließen</string>
+    <string name="Alert_Success">Erfolgreich</string>
+    <string name="Alert_Copied">Kopiert</string>
+    <string name="Alert_Loading">Wird geladen ...</string>
+    <string name="Button_Cancel">Abbrechen</string>
+    <string name="Button_Create">Erstellen</string>
+    <string name="Button_Next">Weiter</string>
+    <string name="Button_Restore">Wiederherstellen</string>
+    <string name="Button_Enable">Aktivieren</string>
+    <string name="Button_Back">Zurück</string>
+    <string name="Button_Close">Schließen</string>
+    <string name="Button_Ok">OK</string>
+    <string name="Button_Share">Teilen</string>
+    <string name="Button_Done">Fertig</string>
+    <string name="Error">Fehler</string>
+    <string name="NotAvailable">N/A</string>
+    <string name="Wallet">%s wallet</string>
+    <!--Welcome-->
+    <string name="Welcome_Title">Waltonchain \nWallet</string>
+    <string name="Welcome_SecurityCenter">Sicherheits-Center</string>
+    <string name="Welcome_CreateWallet">Wallet Erstellen</string>
+    <string name="Welcome_RestoreWallet">Wallet Wiederherstellen</string>
+    <!--Create-->
+    <string name="Create_Title">Krypto auswählen</string>
+    <string name="Create_Description">Wählen Sie eine Kryptowährung. Sie können später weitere Kryptowährungen hinzufügen.</string>
+    <!--Restore-->
+    <string name="Restore_ChooseWallet">Wallet auswählen</string>
+    <string name="Restore_Enter_Key_Title">Schlüssel Eingeben</string>
+    <string name="Restore_Enter_Key_Description_Mnemonic">Geben Sie Ihren 64-Bit privaten Schlüssel oder mnemonischen Satz von %1s Wörtern für Waltonchain Wallet ein. Die Wörter der Sätze müssen in der richtigen Reihenfolge eingegeben und durch Leerzeichen getrennt werden.</string>
+    <string name="Restore_ValidationFailed">Falscher Schlüssel</string>
+    <string name="Restore_RestoreFailed">Fehler beim Wiederherstellen des Wallet</string>
+    <string name="Restore_EosAccountIncorrect">Ungültiger Account</string>
+    <string name="Restore_EosKeyIncorrect">Falscher Schlüssel</string>
+    <!--Backup-->
+    <string name="Backup_Intro_Title">Sicherung</string>
+    <string name="Backup_Intro_Subtitle">Der private Schlüssel oder die Mnemonik, die als nächstes angezeigt wird, ist die einzige Möglichkeit, Ihr Guthaben wiederherzustellen, wenn Ihr Telefon verloren geht, gestohlen wird oder beschädigt wird.\n\nAchten Sie darauf, dass niemand Ihren Bildschirm sieht.\n\nDie Coins, die von diesem Schlüssel oder Mnemonik kontrolliert werden: %s</string>
+    <string name="Backup_Intro_Later">Später</string>
+    <string name="Backup_Intro_BackupNow">Backup</string>
+    <string name="Backup_DisplayTitle">Privater Schlüssel</string>
+    <string name="Backup_Confirmation_Description">Geben Sie die Worte Ihres privaten Schlüssels ein.</string>
+    <string name="Backup_Confirmation_FailureAlertText">Die Wörter stimmen nicht überein</string>
+    <string name="Backup_Confirmation_CheckTitle">Prüfen…</string>
+    <string name="Backup_Button_Confirm">Bestätigen</string>
+    <string name="Backup_Button_Next">Weiter</string>
+    <string name="Backup_Button_Submit">Abschicken</string>
+    <!--Backup Eos-->
+    <string name="Backup_Eos_Warning">Den Key einfach mit „Kopieren“ zu kopieren, ist riskant, da Sie womöglich Zwischenablage-Management-Apps oder andere Apps nutzen, die Zugriff auf die Daten in der Zwischenablage haben. Ein Hacker könnte so heimlich auf Ihre Zwischenablage zugreifen und Ihre Coins stehlen. Das gilt es natürlich zu vermeiden.</string>
+    <!--Balance-->
+    <string name="Balance_Title">Guthaben</string>
+    <string name="Balance_Deposit">Anfordern</string>
+    <string name="Balance_Send">Senden</string>
+    <string name="Balance_RatePerCoin">%s pro %s</string>
+    <string name="Balance_SyncedUntil">bis: %s</string>
+    <string name="Balance_Syncing">Synchronisieren…</string>
+    <string name="Balance_Syncing_WithProgress">Synchronisiere... %s%%</string>
+    <string name="Balance_AddCoins">Coins hinzufügen</string>
+    <string name="Balance_Sort_Balance">Guthaben</string>
+    <string name="Balance_Sort_PopupTitle">Sortieren nach</string>
+    <string name="Balance_Sort_Az">Name</string>
+    <string name="Balance_Sort_24hPriceChange">24h Preis (%)</string>
+    <string name="Balance_Backup_Alert">Sie müssen ein Backup des %s Wallet machen, bevor Sie %s erhalten können.</string>
+    <!--Send-->
+    <string name="Send_Title">%s senden</string>
+    <string name="Send_Hint_Address">Adresse</string>
+    <string name="Send_Hint_Amount">Betrag</string>
+    <string name="Send_Fee">Gebühr:</string>
+    <string name="Send_Button_Paste">Einfügen</string>
+    <string name="Send_Button_Next">Weiter</string>
+    <string name="Send_Button_Max">Max.</string>
+    <string name="Send_Confirmation_Title">Bestätigen</string>
+    <string name="Send_Confirmation_To">An: </string>
+    <string name="Send_Confirmation_Total">Insgesamt:</string>
+    <string name="Send_Confirmation_EstimateTime">Geschätzte Zeit:</string>
+    <string name="Send_Confirmation_Send_Button">Senden</string>
+    <string name="Send_ScanQrCode">QR-Code Scannen</string>
+    <string name="Send_Success">\u2713 Gesendet</string>
+    <string name="Send_Error_InvalidAddress">Eingegebene Adresse scheint ungültig zu sein. Bitte überprüfen Sie und versuchen es erneut!</string>
+    <string name="Send_Error_InsufficientBalance">Nicht genug Geldmittel.</string>
+    <string name="Send_Error_IncorrectAddress">Falscher Adresse</string>
+    <string name="Send_Error_UnsupportedAddress">Zeitsperre funktioniert nur mit P2PKH-Adressen (beginnend mit 1) </string>
+    <string name="Send_Error_BalanceAmount">Guthaben %s</string>
+    <string name="Send_Error_MinimumAmount">Minimaler Betrag %s</string>
+    <string name="Send_Error_MaximumAmount">Maximaler Betrag %s</string>
+    <string name="Send_Error_MinRequiredBalance">Mindestens erforderlicher Rest %s</string>
+    <string name="Send_Error_WrongParameters">Falsche Parameter</string>
+    <string name="Send_DialogTitle">Bestätigen</string>
+    <string name="Send_DialogAvailableBalance">Verfügbares Guthaben</string>
+    <string name="Send_DialogSpeed">Transaktionsgeschwindigkeit:</string>
+    <string name="Send_TxSpeed_Low">Niedrig</string>
+    <string name="Send_TxSpeed_Medium">Mittel</string>
+    <string name="Send_TxSpeed_High">Hoch</string>
+    <string name="Send_DialogDuration">Dauer:</string>
+    <string name="Send_DialogFee">Gebühr:</string>
+    <string name="Send_DialogTotal">Insgesamt:</string>
+    <string name="Send_DialogProceed">Fortfahren</string>
+    <string name="Send_LockTime_Off">Aus</string>
+    <string name="Send_LockTime_Hour">1 Stunde</string>
+    <string name="Send_LockTime_Month">1 Monat</string>
+    <string name="Send_LockTime_HalfYear">6 Monate</string>
+    <string name="Send_LockTime_Year">1 Jahr</string>
+    <string name="Send_Sending">Wird gesendet</string>
+    <string name="Send_ERC_Alert">Transaktionsgebühren für %s (ERC20) in Ethereum bezahlt. Du brauchst %s ETH.</string>
+    <string name="Send_Token_InsufficientFeeAlert">Transaktionsgebühren für %s (%s) in %s bezahlt. Du brauchst %s.</string>
+    <!--Deposit-->
+    <string name="Deposit_Title">%s Anfordern</string>
+    <string name="Deposit_Share">Teilen</string>
+    <string name="Deposit_Your_Address">Deine Adresse</string>
+    <string name="Deposit_Your_Account">Dein Konto</string>
+    <!--Transactions-->
+    <string name="Transactions_Title">Transaktionen</string>
+    <string name="Transactions_FilterAll">ALLE</string>
+    <string name="Transactions_EmptyList">Transaktionsliste ist leer</string>
+    <string name="Transactions_Receiving">Empfangen</string>
+    <string name="Transactions_Sending">Wird gesendet</string>
+    <string name="Transactions_Failed">Fehlgeschlagen</string>
+    <!--Transaction Info-->
+    <string name="TransactionInfo_Title">Transaktion</string>
+    <string name="TransactionInfo_Status">Status</string>
+    <string name="TransactionInfo_Status_Confirmed">Bestätigt</string>
+    <string name="TransactionInfo_Id">ID</string>
+    <string name="TransactionInfo_To">An</string>
+    <string name="TransactionInfo_From">Von</string>
+    <string name="TransactionInfo_Time">Zeit</string>
+    <string name="TransactionInfo_ButtonVerify">Prüfen</string>
+    <string name="TransactionInfo_LockedUntil">Gesperrt bis</string>
+    <string name="TransactionInfo_RecipientHash">Empfänger</string>
+    <string name="TransactionInfo_HistoricalRate">Historischer Rate</string>
+    <string name="TransactionInfo_Fee">Gebühr</string>
+    <string name="TransactionInfo_SentToSelfNote">Diese Transaktion wurde an die eigene Adresse gesendet</string>
+    <string name="TransactionInfo_DoubleSpendNote">Double-Spend-Risiko!</string>
+    <!-- Info -->
+    <string name="Info_LockTime_Title">TimeLock</string>
+    <string name="Info_LockTime_Description">Der Sender hat dieses Guthaben mit einer Ausgabesperre versehen, die zu dem %s abläuft.\n\nKeine Sorge, die erhaltenen Bitcoin sind bereits Ihre. Aber bis zum Ablauf der Sperrzeit können Sie sie nicht im Bitcoin-Netzwerk ausgeben.</string>
+    <string name="Info_DoubleSpend_Title">Double-Spend</string>
+    <string name="Info_DoubleSpend_Description">Double-Spend-Risiko! Es gibt eine weitere Transaktion auf der Blockchain, die versucht, die in dieser Transaktion verwendeten Inputs auszugeben. Nur eine Transaktion wird vom Netzwerk akzeptiert.</string>
+    <string name="Info_DoubleSpend_ThisTx">Dieser Tx</string>
+    <string name="Info_DoubleSpend_ConflictingTx">Gegensätzliche Tx</string>
+    <!--Full Info-->
+    <string name="FullInfo_Title">Transaktion</string>
+    <string name="FullInfo_Time">Zeit</string>
+    <string name="FullInfo_Block">Block</string>
+    <string name="FullInfo_Confirmations">Bestätigungen</string>
+    <string name="FullInfo_Inputs">Eingänge</string>
+    <string name="FullInfo_Outputs">Ausgänge</string>
+    <string name="FullInfo_Size">Größe</string>
+    <string name="FullInfo_Fee">Gebühr</string>
+    <string name="FullInfo_Rate">Rate</string>
+    <string name="FullInfo_Source">Quelle</string>
+    <string name="FullInfo_Contract">Vertrag</string>
+    <string name="FullInfo_From">Von</string>
+    <string name="FullInfo_To">An</string>
+    <string name="FullInfo_Status">Status</string>
+    <string name="FullInfo_Source_Title">Quelle</string>
+    <string name="FullInfo_Source_Online">Online</string>
+    <string name="FullInfo_Source_Offline">Offline</string>
+    <string name="FullInfo_Error_ProviderOffline">Offline</string>
+    <string name="FullInfo_Error_TransactionNotFound">Transaktion kann in der Blockchain nicht gefunden werden</string>
+    <string name="FullInfo_Error_Retry">Wiederholen</string>
+    <string name="FullInfo_Error_ChangeSource">Quelle ändern</string>
+    <!--no used-->
+    <string name="FullInfo_Id">ID</string>
+    <string name="FullInfo_TotalInput">Insgesamt Eingang</string>
+    <string name="FullInfo_TotalOutput">Insgesamte Ausgänge</string>
+    <string name="FullInfo_FeePerByte">Gebühr pro byte</string>
+    <string name="FullInfo_FeeRate">Gebührenrate</string>
+    <string name="FullInfo_NoAddress">Leere Adresse</string>
+    <string name="FullInfo_SubtitleInputs">Eingänge</string>
+    <string name="FullInfo_SubtitleOutputs">Ausgänge</string>
+    <string name="FullInfoEth_Amount">Betrag</string>
+    <!--Settings-->
+    <string name="Settings_Title">Einstellungen</string>
+    <string name="Settings_SecurityCenter">Sicherheit</string>
+    <string name="Settings_Notifications">Benachrichtigungen</string>
+    <string name="Settings_ManageCoins">Coins Verwalten</string>
+    <string name="Settings_ExperimentalFeatures">Experimentell</string>
+    <string name="Settings_RestoreWallet">Wallet Wiederherstellen</string>
+    <string name="Settings_BaseCurrency">Währung</string>
+    <string name="Settings_Language">Sprache</string>
+    <string name="Settings_LightMode">Licht Modus</string>
+    <string name="Settings_About">Info</string>
+    <string name="Settings_ShareThisWallet">Freunden erzählen</string>
+    <string name="Settings_Report">Problem melden</string>
+    <!--Settings-->
+    <string name="Settings_Error_FingerprintNotEnabled">Fingerabdruck Nicht Aktivieren</string>
+    <string name="Settings_Error_NoFingerprintAddedYet">Fingerabdruck auf diesem Gerät aktiviert nicht. Geh zu Einstellungen </string>
+    <!--Setting_Security-->
+    <string name="SettingsSecurity_Fingerprint">Fingerabdruck</string>
+    <string name="SettingsSecurity_EnablePin">Code</string>
+    <string name="SettingsSecurity_EditPin">Code bearbeiten</string>
+    <string name="SettingsSecurity_ManageKeys">Wallets verwalten</string>
+    <string name="SettingsSecurity_BackupWallet">Wallet sichern</string>
+    <string name="SettingsSecurity_BlockchainSettings">Blockchain Einstellungen</string>
+    <string name="SettingsSecurity_EnableTor">Tor aktivieren</string>
+    <string name="SettingsSecurity_TorConnectionDescription">Tor kann Ihre Browsingaktivitäten auf der Wallet schützen. Erlauben Sie die Berechtigung zur Verwendung des Tor-Browsers in den Einstellungen.</string>
+    <!--Setting_About-->
+    <string name="SettingsAbout_Title">Info</string>
+    <string name="SettingsAbout_AppTitle">Waltonchain</string>
+    <string name="SettingsAbout_TermsPrivacySubtitle">ANB &amp; Datenschutz:</string>
+    <string name="SettingsAbout_TermsPrivacyText">Diese App basiert auf dem Peer-to-Peer-Prinzip. Das bietet den Vorteil, dass die App zum Funktionieren nicht auf bestimmte Webserver oder technischem Supportpersonal abhängig ist.\n\nDie App funktioniert überall. Sie benötigen nur einen Internetzugang. Niemand kann die App stoppen oder Sie davon abhalten, sie zu nutzen.\n\nIhre Guthaben sind sicher auf Ihrem Telefon gespeichert, nirgendwo sonst.\n\nEs liegt in Ihrer Verantwortung, den Private Key/Secret Key zu sichern und ihn gut aufzubewahren. Zeigen Sie ihn niemandem. Wenn er verloren geht, Sie ihn vergessen oder er gestohlen wird, kann Ihr Guthaben von demjenigen ausgegeben werden, der den Key besitzt.\n\nFühren Sie auf Ihrem Telefon keinen Jailbreak durch. Installieren Sie keine Apps aus unbekannten (nicht vertrauenswürdigen) Quellen. Geben Sie das Telefon keiner nicht vertrauenswürdigen Person und aktualisieren Sie das Betriebssystem Ihres Telefons regelmäßig. Die Sicherheit Ihres Wallets hängt davon ab.\n\nDer gesamte Code dieser App ist seit Anfang an öffentlich einsehbar. Wir haben versucht, das sicherste und dezentralisierteste Wallet zu programmieren. Allerdings gibt es keine Garantie, dass keine unvorhergesehenen Softwareprobleme auftreten. Trotzdem ist dieses Wallet wahrscheinlich deutlich sicherer als jede andere Smartphone-App.\n\nHinweis: Manche generischen, nicht geheimen App-Daten (wie Währungswechselkurse) werden in einem dezentralen Netzwerken (IPFS) gespeichert.</string>
+    <!--Setting_Tell Friends-->
+    <string name="SettingsShare_Title">Teilen</string>
+    <string name="SettingsShare_Text">Waltonchain Wallet - eine krypto Wallet, die ich empfehle</string>
+    <!--Setting_Contact-->
+    <string name="SettingsContact_Title">Kontakt</string>
+    <string name="SettingsContact_Email">E-Mail</string>
+    <string name="SettingsContact_WalletHelpTelegram">Telegram</string>
+    <string name="SettingsContact_DevelopersTelegram">Telegram (Entwickler)</string>
+    <string name="SettingsContact_AppStatus">App-Status</string>
+    <!--Setting_Notifications-->
+    <string name="SettingsNotifications_Title">Benachrichtigungen</string>
+    <string name="SettingsNotifications_Description">Legen Sie einen Preisänderungsalarm für die Coins fest, die Sie beobachten möchten. \n\nSie werden benachrichtigt, wenn die Preisänderung in den letzten 24 Stunden die von Ihnen festgesetzte Grenze übersteigt.</string>
+    <string name="SettingsNotifications_NotificationsDisabledWarning">Die Benachrichtigungen für das Waltonchain Wallet sind ausgeschaltet. Sie müssen die Benachrichtigungen einschalten und eine Aktualisierung im Hintergrund erlauben, um Benachrichtigungen bei Preisänderungn zu erhalten.</string>
+    <string name="SettingsNotifications_TurnOn">In Einstellungen einschalten</string>
+    <string name="SettingsNotifications_Off">Aus</string>
+    <string name="SettingsNotifications_DeactivateAll">Alle deaktivieren</string>
+    <string name="SettingsNotifications_PushNotification">Push-Benachrichtigung</string>
+    <string name="Notification_Notifications">Benachrichtigung: %s</string>
+    <string name="Notification_Up">Hoch</string>
+    <string name="Notification_Down">Runter</string>
+    <!--Errors-->
+    <string name="Error_UnsupportedBlockchain">Nicht unterstützte Währung</string>
+    <string name="Eos_Backend_Error_SelfTransfer">Token kann nicht auf das eigene Konto übertragen werden</string>
+    <string name="Eos_Backend_Error_AccountNotExist">Das Zielkonto existiert nicht</string>
+    <string name="Eos_Backend_Error_InsufficientRam">Ihr EOS-Konto hat nicht genügend RAM, um dieses Token zu senden. Um fortfahren zu können, müssen Sie den RAM-Stake erhöhen.</string>
+    <string name="Binance_Backend_Error_MemoRequired">Empfänger benötigt nicht-leeren Vermerk bei Transfer einer Transaktion</string>
+    <string name="Binance_Backend_Error_RequiresDigits">Der Vermerk darf nur Zahlen enthalten</string>
+    <!--Hud texts-->
+    <string name="Hud_Text_Unlock">Entsperren</string>
+    <string name="Hud_Text_Success">Erfolgreich</string>
+    <string name="Hud_Text_Done">Fertig</string>
+    <string name="Hud_Text_Error">Fehler</string>
+    <string name="Hud_Text_NoInternet">Kein Internet</string>
+    <string name="Hud_Text_Copied">Kopiert</string>
+    <string name="Hud_Text_InvalidPinError">Falscher Code</string>
+    <string name="Hud_Network_Issue">Es sind Netzwerkprobleme aufgetreten. Bitte versuchen Sie es erneut</string>
+    <string name="Hud_UnknownError">%s</string>
+    <!--Manage Coins-->
+    <string name="ManageCoins_title">Coins</string>
+    <string name="ManageCoins_save">Speichern</string>
+    <string name="ManageCoins_Alert_CantCreateTitle">%s Wallet</string>
+    <string name="ManageCoins_Alert_CantCreateDescription">Im Moment kann das Wallet keine neuen %s Wallet-Accounts anlegen. Sie können nur bestehende wiederherstellen.</string>
+    <!-- Experimental Feature -->
+    <string name="ExperimentalFeatures_Title">Experimentell</string>
+    <string name="ExperimentalFeatures_Description">Die unten aufgeführten Funktionen sind experimentell und sollten mit Vorsicht eingesetzt werden. Wir haben sie zwar ausführlich mit unserem eigenen Kryptoguthaben getestet, aber wir können noch nicht garantieren, dass sie in allen denkbaren Fällen funktionieren.</string>
+    <string name="ExperimentalFeatures_BitcoinHodling">TimeLock</string>
+    <!-- Bitcoin Hodling -->
+    <string name="BitcoinHodling_Title">TimeLock</string>
+    <string name="BitcoinHodling_Description">Damit können Sie gesendete Bitcoins sperren, sodass sie bis zu dem festgesetzten Datum nicht ausgegeben werden können.\n\nDer Empfänger einer solchen Transaktion sollte das Waltonchain-Wallet in der Version 0.10 (oder neuer) sowie das Bitcoin-Adressformat BIP44 verwenden.\n\nNur das Waltonchain-Wallet erkennt solche Transaktionen im Bitcoin-Netzwerk korrekt und ermöglicht es dem Empfänger, die Bitcoins nach der Sperrzeit zu auszugeben.\n\nWenn Sie ein HODLer* sind, können Sie diese Funktion auch für sich selbst nutzen, indem Sie sich selbst eine solche Transaktion schicken und so ihre Bitcoin für sich selbst zeitlich sperren.\n\nDa es sich noch um eine experimentelle Funktion handelt, liegt der maximale Betrag bei 0,5 BTC.</string>
+    <!--Manage Keys-->
+    <string name="ManageKeys_Title">Wallets verwalten</string>
+    <string name="ManageKeys_Create">Erstellen</string>
+    <string name="ManageKeys_Restore">Wiederherstellen</string>
+    <string name="ManageKeys_Delete">Löschen</string>
+    <string name="ManageKeys_Backup">Sicherung</string>
+    <string name="ManageKeys_Show">Anzeigen</string>
+    <string name="ManageKeys_Unlink">Verknüpfung trennen</string>
+    <!--Manage Keys Delete Alert-->
+    <string name="ManageKeys_Delete_Title">Wallet löschen</string>
+    <string name="ManageKeys_Delete_ConfirmationRemove">Damit wird das %s Wallet von Ihrem Gerät gelöscht.</string>
+    <string name="ManageKeys_Delete_ConfirmationDisable">Coins, die entfernt werden: %s</string>
+    <string name="ManageKeys_Delete_ConfirmationLose">Wenn Sie den privaten Schlüssel für dieses Wallet nicht gesichert haben, verlieren Sie den Zugang zu Ihrem Guthaben.</string>
+    <string name="ManageKeys_Delete_FromPhone">Von Telefon löschen</string>
+    <string name="ManageKeys_Delete_Alert_Title">Backup erforderlich</string>
+    <string name="ManageKeys_Delete_Alert">Sie müssen den Private Key für dieses Wallet sichern, bevor Sie es von diesem Telefon löschen können.</string>
+    <!-- Manage Keys Alert -->
+    <string name="AddCoin_Title">%s hinzufügen</string>
+    <string name="AddCoin_Subtitle">%s Wallet</string>
+    <string name="AddCoin_Description">Sie müssen das %1$s Wallet einrichten, um %2$s senden oder empfangen zu können.\n\nTippen Sie auf den Button „Erstellen“, um ein neues %3$s Wallet zu erstellen. Sie können auch auf den Button „Wiederherstellen“ tippen, um ein bereits bestehendes Wallet zu importieren.\n\nSie können dieses Wallet benutzen für: %4$s.</string>
+    <string name="AddCoin_CreateKey">Erstellen</string>
+    <string name="AddCoin_RestoreKey">Wiederherstellen</string>
+    <!-- Blockchain Settings -->
+    <string name="BlockchainSettings_Title">Einstellungen</string>
+    <string name="BlockchainSettings_BipChangeAlert_Title">Adressformatierung</string>
+    <string name="BlockchainSettings_ChangeAlert_ActionButtonText">Ändern zu %s</string>
+    <string name="BlockchainSettings_BipChangeAlert_Content">Diese Aktion erfordert, dass sich die Waltonchain App mit der Bitcoin-Blockchain neu synchronisiert. Ihre aktuellen Bitcoin-Transaktionen werden nicht mehr sichtbar sein. Wenn Sie auf die vorherige Einstellung zurückwechseln, wird alles wieder hergestellt, nachdem die App mit der Blockchain synchronisiert wurde.</string>
+    <string name="BlockchainSettings_SyncModeChangeAlert_Title">Parameter wiederherstellen</string>
+    <string name="BlockchainSettings_SyncModeChangeAlert_Content">Diese Aktion erfordert, dass sich die Waltonchain App mit Bitcoin, Bitcoin Cash und Dash Blockchains neu synchronisiert, falls Sie eines dieser Token aktiviert haben. Ihr Guthaben oder Ihre Transaktionen sind davon nicht betroffen.\n\nWir empfehlen, diese Einstellung nicht zu ändern, falls Sie sich der Wirkungsweise nicht sicher sind.</string>
+    <string name="BlockchainSettings_SyncMode_Blockchain">Blockchain</string>
+    <string name="BlockchainSettings_SyncMode_Api">API</string>
+    <!-- Tor Connection -->
+    <string name="TorPage_Title">Tor-Verbindung</string>
+    <string name="TorPage_Description">Vor dem Erstellen oder Wiederherstellen aktivieren Sie Tor für eine sichere Verbindung mit dem Netzwerk.\n\nTor kann Ihre Browsingaktivitäten auf der Wallet schützen. Erlauben Sie die Berechtigung zur Verwendung des Tor-Browsers in den Einstellungen.</string>
+    <!-- Account Types -->
+    <string name="AccountType_Waltonchain">Waltonchain</string>
+    <!--Coin Option-->
+    <string name="CoinOption_Title">Optionen Wiederherstellen</string>
+    <string name="CoinOption_Fast_Subtitle">0-2 Stunden (Empfohlen)</string>
+    <string name="CoinOption_RestoreSourceDescription">Links zu API-Quellen: \nbtc.horizontalsystems.xyz/apg \ndash.horizontalsystems.xyz/apg \ncashexplorer.bitcoin.com/api/</string>
+    <string name="CoinOption_Slow_Subtitle">1–12 Stunden</string>
+    <string name="CoinOption_AddressFormatTitle">Wählen Sie das Adressformat aus</string>
+    <string name="CoinOption_SyncModeTitle">Parameter wiederherstellen</string>
+    <string name="CoinOption_bip44_Subtitle">Älter (beginnt mit 1 ...)</string>
+    <string name="CoinOption_bip49_Subtitle">Beliebt (beginnt mit 3 ...)</string>
+    <string name="CoinOption_bip84_Subtitle">Am neuesten (beginnt mit bc1 ...)</string>
+    <!--Charts-->
+    <string name="Charts_TimeDuration_Day">1T</string>
+    <string name="Charts_TimeDuration_Week">7D</string>
+    <string name="Charts_TimeDuration_Month">1M</string>
+    <string name="Charts_TimeDuration_Month3">3M</string>
+    <string name="Charts_TimeDuration_Quartal">3M</string>
+    <string name="Charts_TimeDuration_HalfYear">6M</string>
+    <string name="Charts_TimeDuration_Year">1J</string>
+    <string name="Charts_TimeDuration_Year2">2J</string>
+    <string name="Charts_Title">%s Preis</string>
+    <string name="Charts_Rate_High">Hoch</string>
+    <string name="Charts_Rate_Low">Niedrig</string>
+    <string name="Charts_MarketCap">Mkt. Kap.</string>
+    <string name="Charts_Volume24">Lautstärke(24 St.)</string>
+    <string name="Charts_inCirculation">umlaufversorgung</string>
+    <string name="Charts_TotalSupply">Gesamtversorgung</string>
+    <string name="Charts_MarketCap_Thousand">Tsd.</string>
+    <string name="Charts_MarketCap_Million">Mill.</string>
+    <string name="Charts_MarketCap_Billion">Mrd.</string>
+    <string name="Charts_MarketCap_Trillion">Trill.</string>
+    <string name="Charts_Volume">Lautstärke</string>
+    <string name="Charts_Price">Preis</string>
+    <string name="Charts_Error_NotAvailable">Diagramm nicht verfügbar</string>
+    <!--Rate list-->
+    <string name="RateList_updated">aktualisiert\n%s</string>
+    <string name="Hud_Text_Private_Key_Copied">Privater Schlüssel kopiert</string>
+    <string name="Backup_Intro_TitleShow">Schlüssel oder Mnemonik anzeigen</string>
+    <string name="Backup_Button_ShowKey">Schlüssel oder Mnemonik anzeigen</string>
+</resources>
