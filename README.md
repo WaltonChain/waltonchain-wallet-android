@@ -19,5 +19,5 @@ https://github.com/waltonchain/waltonchain-wallet-android
 This wallet is open source and available under the terms of the MIT License.
 
 
-Acknowledgement
+## Acknowledgement
 Based on [Unstoppable Wallet](https://github.com/horizontalsystems/unstoppable-wallet-android) by [Horizontal Systems](https://github.com/horizontalsystems).
