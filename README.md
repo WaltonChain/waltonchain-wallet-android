@@ -4,6 +4,7 @@ waltonchain android wtc wta p2p dapp decentralized blockchain wallet
 Waltonchain Wallet New Waltonchain decentralized mobile wallet for Android. A safe and easy way to operate your mainnet WTC and WTA.  
 
 Download
+
 Requires Android 8.0 and up
 
 Play Store: https://play.google.com/store/apps/details?id=pro.waltonchain.wallet
